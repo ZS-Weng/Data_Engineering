@@ -12,8 +12,12 @@
 setx JAVA_HOME "C:\Program Files\Java\jdk-11"
 - Set Path Variable (From cmd)
 setx PATH "%PATH%;%JAVA_HOME%\bin"
+- Double check Java is installed correctly with command "java -version"
 
 2. Install Python 3.6 or higher
+
+- Install python from the python website
+- Type "python" or "python --version" in command prompt to check on version
 
 3. Install Hadoop WinUtils 
 
