@@ -19,7 +19,13 @@ setx PATH "%PATH%;%JAVA_HOME%\bin"
 - Install python from the python website
 - Type "python" or "python --version" in command prompt to check on version
 
-3. Install Hadoop WinUtils 
+3. Install Hadoop WinUtils
+
+- Search for Hadoop Winutils on Google with a GitHub page link (Remember to go to the new winsutil)
+- There will be instructions 
+- Copy the latest version to the designated location
+- setx HADOOP_HOME=<your local hadoop-ver folder>
+- setx PATH=%PATH%;%HADOOP_HOME%\bin
 
 4. Spark Binaries
 
