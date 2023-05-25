@@ -29,6 +29,10 @@ setx PATH "%PATH%;%JAVA_HOME%\bin"
 
 4. Spark Binaries
 
+- Download the latest Spark version
+- 
+
+
 5. Environment Variables 
 
 5. Python IDE 
