@@ -30,9 +30,17 @@ setx PATH "%PATH%;%JAVA_HOME%\bin"
 4. Spark Binaries
 
 - Download the latest Spark version
-- 
+- Uncompress the files and copy directory into a permanent location
+- setx SPARK_HOME=<your local spark folder>
+- Put Path Environment using Windows UI <Spark Home Directory\bin>
 
+5. Checking Installation 
 
-5. Environment Variables 
+- Run pyspark on cmd
 
-5. Python IDE 
+6. Additional Environment Variables
+
+- setx PYTHONPATH <Python Folder within Spark Folder>
+- setx PYTHONPATH <"py4j zip file from spark>python>lib>py4j zip file">
+
+7. Python IDE 
